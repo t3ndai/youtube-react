@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarItem it renders SideBarItem with label="trending" 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        size="large"
+      />
+    </span>
+    <span>
+      trending
+    </span>
+  </div>
+</MenuItem>
+`;
+
+exports[`SideBarItem it renders a SideBarItem with label="trending" and icon="fire" 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="fire"
+        size="large"
+      />
+    </span>
+    <span />
+  </div>
+</MenuItem>
+`;
+
+exports[`SideBarItem it renders an empty SideBarItem 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        size="large"
+      />
+    </span>
+    <span />
+  </div>
+</MenuItem>
+`;
